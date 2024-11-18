@@ -25,7 +25,7 @@ struct MemoirMateApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MonthsView()
         }
         .modelContainer(sharedModelContainer)
     }
